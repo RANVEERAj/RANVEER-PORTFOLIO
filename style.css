@@ -1,0 +1,101 @@
+  a:visited{
+    color: rgb(212, 212, 25);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+h1 {
+    color: rgb(79, 175, 231);
+}
+p,h2{
+    text-align: center;
+}
+.item{
+    position:relative;
+}
+
+.item p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.53;
+} 
+
+
+.projects-and-me{
+    display: flex;
+    justify-content:space-around;
+    color: blanchedalmond;
+}
+.box{
+    border: solid;
+    border-color: rgb(36, 219, 210);
+    border-width:thick;
+    border-radius: 20px;
+    background-color: rgb(171, 206, 15);
+    width: 310px;
+    font-family: cursive;
+    height: 400px;
+    padding-left:30px;
+    color: rgb(75, 17, 17);
+}
+.kbox{
+    border:solid;
+    border-color: rgb(0, 119, 113);
+    border-width:thick;
+    width: 350px;
+    font-family: cursive;
+    height: 350px;
+    color: rgb(0, 0, 0);
+}
+
+
+.header{
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    margin: left 10px;;
+    display :flex;
+    justify-content:center;
+    font-family: cursive;
+}
+.menu{
+   display: flex;
+   align-items:center;
+   justify-content: space-evenly;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.center {      
+         display: flex;
+         align-self:center;
+         justify-content: space-evenly;
+       }
+
+       .kcenter {      
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      
+       
+      }
+      .color{
+          color: rgb(69, 252, 69);
+      }
